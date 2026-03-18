@@ -61,6 +61,7 @@
     const li = document.createElement("li");
     const link = document.createElement("a");
     link.setAttribute("href", url);
+    link.setAttribute("target", "_blank");
     link.setAttribute("style", "margin-left: 8px;");
     const text = document.createTextNode(linkText);
     link.appendChild(text);
